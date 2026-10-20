@@ -1,0 +1,22 @@
+{
+  "name": "casino-chaos",
+  "version": "1.0.0",
+  "description": "CASINO CHAOS - party game arcade de casino multijugador para LAN (monedas ficticias)",
+  "main": "server/index.js",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  }
+}
